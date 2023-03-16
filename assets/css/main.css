@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  color: rgb(22, 24, 35);
+  direction: ltr;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  height: 15vh;
+  background-color: greenyellow;
+  line-height: 15vh;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+
+main {
+  height: 150vh;
+  background-color: khaki;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 150vh;
+}
+
+footer {
+  height: 20vh;
+  background-color: blueviolet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}

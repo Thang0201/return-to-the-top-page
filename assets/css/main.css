@@ -64,3 +64,19 @@ footer h3 {
   font-weight: 600;
   color: white;
 }
+footer a {
+  height: 3rem;
+  width: 12rem;
+  background-color: rgb(233, 9, 110);
+  color: bisque;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+footer a:hover {
+  opacity: 0.6;
+}

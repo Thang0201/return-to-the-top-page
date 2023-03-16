@@ -54,20 +54,20 @@ footer {
     color: white;
   }
 
-  // a {
-  //   height: 3rem;
-  //   width: 12rem;
-  //   background-color: rgb(233, 9, 110);
-  //   color: bisque;
-  //   border-radius: 5px;
-  //   font-size: 1.6rem;
-  //   line-height: 3rem;
-  //   text-align: center;
-  //   text-decoration: none;
-  //   transition: all 0.5s;
+  a {
+    height: 3rem;
+    width: 12rem;
+    background-color: rgb(233, 9, 110);
+    color: bisque;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
 
-  //   &:hover {
-  //     opacity: 0.6;
-  //   }
-  // }
+    &:hover {
+      opacity: 0.6;
+    }
+  }
 }
